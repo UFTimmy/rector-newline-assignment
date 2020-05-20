@@ -1,0 +1,14 @@
+{
+    "name": "uftimmy/rector-newline-assignment",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": ["src/"]
+        }
+    },
+    "require": {
+        "rector/rector": "^0.7.26",
+        "doctrine/orm": "^2.7"
+    }
+}
